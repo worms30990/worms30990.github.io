@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>latex</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript" async
+		  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+		</script>
+		<style>
+		body{
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			background-color: #8a2be2;
+		}
+		h2{
+			text-align: center;
+		}
+		h3{
+			font-size: 15px;
+			margin-left: 40px;
+			color: #ffffff;
+		}
+		.main{
+			/*padding:20px 0 20px 0;*/
+			text-align:center;
+			font-family: Tahoma, sans-serif;
+			font-size: 32px;
+		}
+		.aboutme{
+			background-color: #4125cc;
+			text-align: center;
+			font-size: 20px;
+			padding:10px 0 10px 0px;
+			color: white;
+			font-style: italic;
+		}
+		</style>
+	</head>
+	<body>
+				<h2 class="main">Теория вероятности</h2>
+				<h3>Задача 1</h3>
+				<p>
+					У дедушки 2 апельсина и 3 банана. Каждый день в течение 5 дней подряд он выдает по одному фрукту. Сколькими способами это может быть сделано?</p>
+				<p><b>Решение.</b> Есть набор {а, а, б, б, б}. Всего перестановок пятиэлементного множества 5 !, но мы не должны учитывать перестановки, в которых объекты одного типа меняются местами несколько раз, поэтому нужно разделить на возможное количество таких перестановок:
+				$2! · 3!$. В результате получаем</p>
+				<p>$$C_n^m =\frac{A_n^m}{P_m}=\frac{n!}{m! \cdot (n-m)!}=\frac{5!}{3! \cdot (5-3)!}=10$$</p>
+				<u>Ответ: 10</u>
+
+				<h3>Задача 2</h3>
+				<p>
+					С $n$ аккумуляторов в год хранения $k$  выходит из строя. Наугад выбирают $m$ аккумуляторов. Определить вероятность того, что среди них $l$ исправных. $n=100$, $k=7$, $m=5$, $l=3$.
+				</p>
+				<p><b>Решение.</b> Есть схема Бернулли с параметрами $p=7/100=0,07$ $p=7/100=0,07$ (вероятность того, что аккумулятор выйдет из строя), $n = 5$ (число испытаний), $k=5-3=2$ (число «успехов», неисправных аккумуляторов). Будем использовать формулу Бернулли (вероятность того, что в $n$ испытаниях событие произойдет $k$ раз). </p>
+				<p>$$P_n(k)=C_n^k \cdot p^k \cdot (1-p)^{n-k}$$</p>
+				<p>Получаем:</p>
+				<p>$$P_5(2)=C_5^2 \cdot 0,07^2 \cdot (1-0,07)^{5-2}=\frac{5!}{3!2!}\cdot 0,07^2 \cdot 0,93^{3}=0,0394.$$</p>
+				<u>Ответ: 0,0394</u>
+	</body>
+</html>
