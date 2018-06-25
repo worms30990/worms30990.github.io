@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/css" href="xml.css"?>
+
+<Cinema> 
+	<Poster>
+	<span>Уже на экранах кинотеатров Кременчуга</span>
+		<movie>
+			<name>ЕСКОБАР</name>
+			<time>с 31.05</time>
+			<genre>драма, кримінал, біографія</genre>
+		</movie>
+		<movie>
+			<name>СУПЕРСІМЕЙКА 2</name>
+			<time >c 14.06</time>
+			<genre>бойовик, мультфільм, пригоди, сімейний</genre>
+		</movie>
+		<movie>
+			<name>ЗАВЗЯТІ ШАХРАЇ</name>
+			<time>c 14.06</time>
+			<genre>комедія</genre>
+		</movie>
+		<movie>
+			<name>8 ПОДРУГ ОУШЕНА</name>
+			<time>c 14.06</time>
+			<genre>комедія, кримінал</genre>
+		</movie>
+		<movie>
+			<name>ПОЛІЦЕЙСЬКИЙ ПЕС</name>
+			<time>c 7.06</time>
+			<genre>комедія, сімейний</genre>
+		</movie>
+		<movie>
+			<name>СВІТ ЮРСЬКОГО ПЕРІОДУ 2</name>
+			<time>з 7.06</time>
+			<genre>фантастика, бойовик, пригоди</genre>
+		</movie>
+	</Poster>
+</Cinema>
