@@ -1,0 +1,660 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.1), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.0.3]",
+  "header": {
+    "baseIris": [
+      "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "http://www.w3.org/2000/01/rdf-schema"
+    ],
+    "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6"
+  },
+  "namespace": [],
+  "metrics": {
+    "classCount": 15,
+    "objectPropertyCount": 0,
+    "datatypePropertyCount": 0,
+    "individualCount": 0
+  },
+  "settings": {
+    "global": {
+      "zoom": 0.4914103150367737,
+      "translation": [
+        295.9992370605469,
+        119.51858520507812
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "20",
+      "type": "owl:disjointUnionOf"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "21",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "12",
+      "type": "owl:disjointUnionOf"
+    },
+    {
+      "id": "23",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6#2501",
+      "baseIri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "instances": 0,
+      "label": {
+        "IRI-based": "2501"
+      },
+      "id": "0",
+      "superClasses": [
+        "1"
+      ],
+      "pos": [
+        192.01291322057136,
+        699.781497515938
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6#2503",
+      "baseIri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "instances": 0,
+      "label": {
+        "IRI-based": "2503"
+      },
+      "id": "6",
+      "superClasses": [
+        "4"
+      ],
+      "pos": [
+        879.9759884300422,
+        527.0355947064197
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6#2404",
+      "baseIri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "instances": 0,
+      "label": {
+        "IRI-based": "2404"
+      },
+      "id": "7",
+      "superClasses": [
+        "8"
+      ],
+      "pos": [
+        -49.363726744676,
+        365.15992787029927
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6#2405",
+      "baseIri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "instances": 0,
+      "label": {
+        "IRI-based": "2405"
+      },
+      "id": "16",
+      "superClasses": [
+        "8"
+      ],
+      "pos": [
+        -145.84654633843593,
+        17.57144948157168
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6#ИВМ",
+      "baseIri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "instances": 0,
+      "label": {
+        "IRI-based": "ИВМ"
+      },
+      "subClasses": [
+        "12",
+        "15",
+        "8"
+      ],
+      "id": "13",
+      "pos": [
+        377.03833138385215,
+        379.9761230777441
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6#Защита_диплома",
+      "baseIri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "instances": 0,
+      "disjointUnion": [
+        "3",
+        "6",
+        "10"
+      ],
+      "label": {
+        "IRI-based": "Защита_диплома"
+      },
+      "attributes": [
+        "disjointUnion"
+      ],
+      "id": "20",
+      "superClasses": [
+        "15"
+      ],
+      "pos": [
+        704.7307539874486,
+        167.38293147805325
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6#Лекц.классы",
+      "baseIri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Лекц.классы"
+      },
+      "subClasses": [
+        "4",
+        "20",
+        "1"
+      ],
+      "id": "15",
+      "superClasses": [
+        "13"
+      ],
+      "pos": [
+        681.5674797483937,
+        492.386159351359
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6#2510",
+      "baseIri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "instances": 0,
+      "label": {
+        "IRI-based": "2510"
+      },
+      "id": "21",
+      "superClasses": [
+        "1"
+      ],
+      "pos": [
+        211.43311016243658,
+        926.0644724263262
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6#Кафедра",
+      "baseIri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Кафедра"
+      },
+      "subClasses": [
+        "23",
+        "7",
+        "16"
+      ],
+      "id": "8",
+      "superClasses": [
+        "13"
+      ],
+      "pos": [
+        170.89596428134058,
+        105.46472754674275
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6#Комп.классы",
+      "baseIri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "instances": 0,
+      "disjointUnion": [
+        "4",
+        "20",
+        "1"
+      ],
+      "label": {
+        "IRI-based": "Комп.классы"
+      },
+      "attributes": [
+        "disjointUnion"
+      ],
+      "id": "12",
+      "superClasses": [
+        "13"
+      ],
+      "pos": [
+        734.7207609099452,
+        524.785219167336
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6#2413",
+      "baseIri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "instances": 0,
+      "label": {
+        "IRI-based": "2413"
+      },
+      "id": "23",
+      "superClasses": [
+        "8"
+      ],
+      "pos": [
+        249.35874948949308,
+        -222.02637308976816
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6#2412",
+      "baseIri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "instances": 0,
+      "label": {
+        "IRI-based": "2412"
+      },
+      "id": "3",
+      "superClasses": [
+        "4"
+      ],
+      "pos": [
+        856.1972992371934,
+        -124.38824428939539
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6#2513",
+      "baseIri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "instances": 0,
+      "label": {
+        "IRI-based": "2513"
+      },
+      "id": "10",
+      "superClasses": [
+        "4"
+      ],
+      "pos": [
+        953.0919872531757,
+        -99.77765208982578
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6#Занятия",
+      "baseIri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Занятия"
+      },
+      "subClasses": [
+        "21",
+        "0"
+      ],
+      "id": "1",
+      "superClasses": [
+        "15"
+      ],
+      "pos": [
+        523.8563865625001,
+        801.9894199229251
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6#Конференции",
+      "baseIri": "http://www.semanticweb.org/alena/ontologies/2017/4/untitled-ontology-6",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Конференции"
+      },
+      "subClasses": [
+        "3",
+        "6",
+        "10"
+      ],
+      "id": "4",
+      "superClasses": [
+        "15"
+      ],
+      "pos": [
+        970.952098631147,
+        232.47335681540963
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "2",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "5",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "9",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "11",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "14",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "17",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "18",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "19",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "22",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "24",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "25",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "26",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "27",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "28",
+      "type": "rdfs:SubClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "range": "4",
+      "domain": "3",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "2",
+      "pos": [
+        913.5746989341702,
+        54.042556263007114
+      ]
+    },
+    {
+      "range": "4",
+      "domain": "6",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "5",
+      "pos": [
+        925.4640435305946,
+        379.7544757609147
+      ]
+    },
+    {
+      "range": "4",
+      "domain": "10",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "9",
+      "pos": [
+        962.0220429421613,
+        66.34785236279193
+      ]
+    },
+    {
+      "range": "13",
+      "domain": "12",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "11",
+      "pos": [
+        555.8795461468986,
+        452.38067112254004
+      ]
+    },
+    {
+      "range": "13",
+      "domain": "15",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "14",
+      "pos": [
+        529.302905566123,
+        436.18114121455153
+      ]
+    },
+    {
+      "range": "13",
+      "domain": "8",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "17",
+      "pos": [
+        273.96714783259637,
+        242.72042531224344
+      ]
+    },
+    {
+      "range": "15",
+      "domain": "4",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "18",
+      "pos": [
+        826.2597891897703,
+        362.4297580833843
+      ]
+    },
+    {
+      "range": "15",
+      "domain": "20",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "19",
+      "pos": [
+        693.1491168679211,
+        329.88454541470617
+      ]
+    },
+    {
+      "range": "1",
+      "domain": "21",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "22",
+      "pos": [
+        367.64474836246836,
+        864.0269461746257
+      ]
+    },
+    {
+      "range": "1",
+      "domain": "0",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "24",
+      "pos": [
+        357.93464989153574,
+        750.8854587194315
+      ]
+    },
+    {
+      "range": "8",
+      "domain": "16",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "25",
+      "pos": [
+        12.524708971452327,
+        61.51808851415721
+      ]
+    },
+    {
+      "range": "15",
+      "domain": "1",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "26",
+      "pos": [
+        602.7119331554469,
+        647.187789637142
+      ]
+    },
+    {
+      "range": "8",
+      "domain": "7",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "27",
+      "pos": [
+        60.76611876833229,
+        235.31232770852102
+      ]
+    },
+    {
+      "range": "8",
+      "domain": "23",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "28",
+      "pos": [
+        210.12735688541682,
+        -58.2808227715127
+      ]
+    }
+  ]
+}

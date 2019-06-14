@@ -1,0 +1,46 @@
+<html> 
+<head> 
+<script type="text/javascript" src="https://www.google.com/jsapi"></script> 
+<script type="text/javascript"> 
+google.load("visualization", "1.1", {packages:["wordtree"]}); 
+google.setOnLoadCallback(drawChart); 
+
+function drawChart() { 
+var data = google.visualization.arrayToDataTable( 
+[ ['Фразы'], 
+['ИВМ кафедра 2404'], 
+['ИВМ кафедра 2405'], 
+['ИВМ кафедра 2413'], 
+['ИВМ лекционный_класс конференции 2412'],
+['ИВМ лекционный_класс защиты_дипломов 2412'],
+['ИВМ лекционный_класс защиты_дипломов 2503'],
+['ИВМ лекционный_класс защиты_дипломов 2513'],  
+['ИВМ компьютерный_класс защиты_дипломов 2412'], 
+['ИВМ компьютерный_класс защиты_дипломов 2503'], 
+['ИВМ компьютерный_класс защиты_дипломов 2513'], 
+['ИВМ компьютерный_класс занятия 2501'], 
+['ИВМ компьютерный_класс занятия 2510'], 
+
+
+] 
+); 
+
+var options = { 
+maxFontSize: 18, 
+backgroundColor: '#F7F7F7', 
+wordtree: { 
+format: 'implicit', 
+word: 'ИВМ' 
+} 
+}; 
+
+
+var chart = new google.visualization.WordTree(document.getElementById('wordtree_basic')); 
+chart.draw(data, options); 
+} 
+</script> 
+</head> 
+<body> 
+<div id="wordtree_basic" style="margin-bottom:10px;"></div> 
+</body> 
+</html>
